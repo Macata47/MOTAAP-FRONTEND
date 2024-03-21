@@ -9,8 +9,8 @@ const Navbar = () => {
   };
 
   return (
-    <div className="navbar-container">
-      <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-700/80">
+    <div className="navbar ">
+      <nav className="sticky bg-black top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-700/80">
         <div className="container px-4 mx-auto relative lg:text-sm">
           <div className="flex justify-between items-center">
             <div className="flex items-center flex-shrink-0">
@@ -42,22 +42,22 @@ const Navbar = () => {
               } md:flex flex-col md:flex-row md:space-x-16 w-full md:w-auto py-2 px-4 rounded-md`}
             >
               <li>
-                <a href="#" className="text-orange-500 hover:text-gray-300 block py-3">INICIO</a>
+                <a href="#" className="text-orange-500 font-bold hover:text-gray-300 block py-3">INICIO</a>
               </li>
               <li>
-                <a href="#" className="text-orange-500 hover:text-gray-300 block py-3">SERVICIOS</a>
+                <a href="#" className="text-orange-500 font-bold hover:text-gray-300 block py-3">SERVICIOS</a>
               </li>
               <li>
-                <a href="#" className="text-orange-500 hover:text-gray-300 block py-3">CLUBES</a>
+                <a href="#" className="text-orange-500 font-bold hover:text-gray-300 block py-3">CLUBES</a>
               </li>
               <li>
-                <a href="#" className="text-orange-500 hover:text-gray-300 block py-3">EVENTOS</a>
+                <a href="#" className="text-orange-500 font-bold hover:text-gray-300 block py-3">EVENTOS</a>
               </li>
               <li>
-                <a href="#" className="text-orange-500 hover:text-gray-300 block py-3">CONTACTO</a>
+                <a href="#" className="text-orange-500 font-bold hover:text-gray-300 block py-3">CONTACTO</a>
               </li>
               <li>
-                <a href="#" className="text-orange-500 hover:text-gray-300 block py-3">LOGIN</a>
+                <a href="#" className="text-orange-500 font-bold hover:text-gray-300 block py-3">LOGIN</a>
               </li>
             </ul>
           </div>
